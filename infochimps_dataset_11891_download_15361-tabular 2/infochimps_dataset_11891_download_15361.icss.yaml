@@ -1,0 +1,53 @@
+--- 
+:schema: 
+  :decription: |+
+    This is an Infochimps Simple Schema (ICSS).  An ICSS is a YAML
+    file describing a dataset on Infochimps.org.
+    
+    An ICSS summarizes the metadata for a dataset, including its
+    title, description, tags, categories, sources, licenses, & data
+    fields.
+    
+    The ICSS is designed to be both human and machine readable.
+    
+    If this ICSS is missing information, please consider visiting its
+    URL at Infochimps.org and completing it.
+    
+  :title: Infochimps Simple Schema (ICSS)
+  :version: 0.1
+:dataset: 
+  :sources: 
+  - :description: Source for dataset "GeoNames" as listed by CKAN.
+    :main_link: http://www.geonames.org/export/
+    :title: www.geonames.org
+    :infochimps_page: http://infochimps.org/sources/www-geonames-org
+  :updated_at: 2009-10-29 12:56:10 Z
+  :categories: 
+  - Geography
+  :tags: !seq:IsTaggable::TagList []
+
+  :subtitle: City, State, ZIP Code, Latitude and Longitude
+  :created_by: 
+    :name: Philip Kromer
+    :main_link: http://infochimps.org
+    :institution: Infochimps, inc
+    :infochimps_username: mrflip
+    :infochimps_page: http://infochimps.org/users/mrflip
+  :main_link: http://download.geonames.org/export/zip/
+  :title: GeoNames.org Postal Code files - US Zip Code Geolocations
+  :created_at: 2009-10-29 12:56:10 Z
+  :license: 
+    :description: ""
+    :main_link: 
+    :title: Creative Commons BY
+    :infochimps_page: http://infochimps.org/licenses/creative-commons-by
+  :infochimps_page: http://infochimps.org/datasets/geonames-org-postal-code-files-us-zip-code-geolocations
+:data: 
+  :description: |
+    From the geonames database export
+      US.zip                  29-Oct-2009 01:24  628K  
+
+  :title: US Postal Codes as downloaded from geonames.org 2009-10-28
+  :infochimps_page: http://infochimps.org/datasets/geonames-org-postal-code-files-us-zip-code-geolocations/payloads/15361
+  :fields: []
+
